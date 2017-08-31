@@ -24,7 +24,12 @@ class Calculator:
         self.number_entry = ttk.Entry(root,
                                       textvatiable=self.entry_value,width=50)
 
-        self.number_entry,grid(row=0, columnspan=4)
+        self.number_entry.grid(row=0, columnspan=4)
+        self.button7 = ttk.Button(root, text="7",
+                                  command=lambda: self.button_press("7")).grid(row=1, column=0)
+        self.button8 = ttk.Button(roo, text="8",
+                                  command=lambda: self.button_press("8")).grid(row=1, column=1)
+
 
 
 
@@ -40,4 +45,7 @@ def menu () :
         print ("")
 
     if choice == "3" :
+        print("")
+
+    if choice == "4" :\
         print("")
