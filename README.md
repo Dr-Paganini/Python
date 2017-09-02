@@ -1,2 +1,1 @@
-Just code for an app im working on.
-Not much to see since it's still in development
+Mostly some of the actually "useful" stuff that I made in Python
