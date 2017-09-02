@@ -8,8 +8,8 @@ import RPi.GPIO as GPIO
 GPIO.setup(7, GPIO.OUT)
 
 GPIO.setmode(GPIO.BOARD)
-
-for x in range(0, 3):
+# Makes it blink from 0 to 3 times
+for x in range(0, 3): 
     GPIO.output(7, True) # Turns the 7th switch on
     time.sleep(1)
     GPIO.output(7, False) # Turns the 7th switch off
