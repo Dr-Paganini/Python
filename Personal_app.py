@@ -64,6 +64,8 @@ def menu():
                                           command=lambda: self.math_button_press("3")).grid(row=3, column=2)
                 self.button_. = ttk.Button(root, text=".",
                                            command=lambda: self.math_button_press(".")).grid(row=3, column=3)
+                self.button_neg = ttk.Button(root, text="(-",
+                                             command=lambda: self.math_button_press("(-").grid(row=3, column=4)
               
                 
                                            
