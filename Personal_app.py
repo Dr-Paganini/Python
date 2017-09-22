@@ -56,16 +56,13 @@ def menu():
                                             command=lambda: self.math_button_press("+")).grid(row=2, column=3)
                 self.button_sub = ttk.Button(root, text="-",
                                              command=lambda: self.math_button_press("-")).grid(row=2, column=4)            
-                self.button_1 = ttk.Button(root, text="1",
+               self.button_1 = ttk.Button(root, text="1",
                                           command=lambda: self.math_button_press("1")).grid(row=3, column=0)
-                self.button_2 = ttk.Button(root, text="2",
+               self.button_2 = ttk.Button(root, text="2",
                                           command=lambda: self.math_button_press("2")).grid(row=3, column=1)
                 self.button_3 = ttk.Button(root, text="3",
-                                          command=lambda: self.math_button_press("3")).grid(row=3, column=2)
-                self.button_. = ttk.Button(root, text=".",
-                                           command=lambda: self.math_button_press(".")).grid(row=3, column=3)
-                self.button_neg = ttk.Button(root, text="(-",
-                                             command=lambda: self.math_button_press("(-").grid(row=3, column=4)
+                                           command=lambda: self.math_button_press("3")).grid(row=3, column=2)
+                
               
                 
                                            
