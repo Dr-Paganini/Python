@@ -1,6 +1,5 @@
 import sys
 import os
-import tkinter
 import random
 import time
 import RPi.GPIO as GPIO
